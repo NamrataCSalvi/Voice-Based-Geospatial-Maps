@@ -1,0 +1,40 @@
+/* src/components/LocationPermissionScreen.css */
+.location-permission-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .location-image-container {
+    margin: 20px 0;
+  }
+  
+  .location-image {
+    width: 350px;
+    height: 300px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .allow-button, .deny-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .allow-button {
+    background-color: #4e5cf6;
+    color: white;
+  }
+  
+  .deny-button {
+    background-color: #f44336;
+    color: white;
+  }
+  

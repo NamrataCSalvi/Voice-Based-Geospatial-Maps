@@ -1,0 +1,52 @@
+.welcome-screen {
+    text-align: left;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro-text {
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .feature-content {
+    flex: 1;
+  }
+  
+  .feature h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+  
+  .feature p {
+    margin: 0;
+  }
+  
+  .get-started-button {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4e5cf6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: center;
+    text-align: center;
+  }
+  
+  .get-started-button:hover {
+    background-color: #3a47d1;
+  }
+  

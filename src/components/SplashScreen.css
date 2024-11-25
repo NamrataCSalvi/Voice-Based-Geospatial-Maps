@@ -1,0 +1,44 @@
+/* src/components/SplashScreen.css */
+
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f4f8; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center;
+  }
+  
+  .splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    background: #ffffff; /* White background for logo */
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .splash-logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .splash-text {
+    margin-top: 20px;
+  }
+  
+  .splash-text h1 {
+    font-size: 2rem;
+    color: #2c3e50; /* Darker color for heading */
+  }
+  
+  .splash-text p {
+    font-size: 1rem;
+    color: #7f8c8d; /* Lighter color for text */
+  }
