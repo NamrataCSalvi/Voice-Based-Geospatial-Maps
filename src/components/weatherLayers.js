@@ -4,7 +4,7 @@ import XYZ from 'ol/source/XYZ';
 import { fromLonLat } from 'ol/proj';  // Importing fromLonLat for projections
 
 // Replace this with your OpenWeatherMap API key
-const apiKey = '02ae08d812696b42721efe383f6c7e42';
+const apiKey = '';
 
 // Define cities with their coordinates
 const cities = {
